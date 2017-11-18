@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow:flowers xmlns:flow="http://www.epam.tc.com/flowers"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://www.epam.tc.com/flowers flowers.xsd">
+
+    <flower id="flower1" stem_color="green">
+        <name>rose</name>
+        <soil>ground</soil>
+        <origin>Italy</origin>
+        <growing_tips>
+            <temperature>+27 cel</temperature>
+            <lighting>true</lighting>
+            <watering>5000 per/week</watering>
+        </growing_tips>
+        <multiplying>cuttings</multiplying>
+    </flower>
+
+    <flower id="flower2" leaves_color="yellow" stem_color="green">
+        <name>dandelion</name>
+        <soil>podzolic</soil>
+        <origin>Belarus</origin>
+        <growing_tips>
+            <temperature>+25 cel</temperature>
+            <lighting>true</lighting>
+            <watering>4000 per/week</watering>
+        </growing_tips>
+        <multiplying>seeds</multiplying>
+    </flower>
+
+    <flower id="flower3" leaves_color="white" stem_color="green">
+        <name>chamomile</name>
+        <soil>sod-podzolic</soil>
+        <origin>garden</origin>
+        <growing_tips>
+            <temperature>+25 cel</temperature>
+            <lighting>true</lighting>
+            <watering>4000 per/week</watering>
+        </growing_tips>
+        <multiplying>seeds</multiplying>
+    </flower>
+
+    <flower id="flower4" leaves_color="white">
+        <name>eustoma</name>
+        <soil>ground</soil>
+        <origin>Belarus</origin>
+        <growing_tips>
+            <temperature>+25 cel</temperature>
+            <lighting>true</lighting>
+            <watering>4000 per/week</watering>
+        </growing_tips>
+        <multiplying>seeds</multiplying>
+    </flower>
+
+    <flower id="flower5" stem_color="green">
+        <name>loosestrife</name>
+        <soil>podzolic</soil>
+        <origin>garden</origin>
+        <growing_tips>
+            <temperature>+28 cel</temperature>
+            <lighting>true</lighting>
+            <watering>4500 per/week</watering>
+        </growing_tips>
+        <multiplying>seeds</multiplying>
+    </flower>
+
+    <flower id="flower6">
+        <name>aster</name>
+        <soil>ground</soil>
+        <origin>Russia</origin>
+        <growing_tips>
+            <temperature>+23 cel</temperature>
+            <lighting>true</lighting>
+            <watering>5000 per/week</watering>
+        </growing_tips>
+        <multiplying>seeds</multiplying>
+    </flower>
+
+    <flower id="flower7" stem_color="green">
+        <name>tulp</name>
+        <soil>podzolic</soil>
+        <origin>Ukraine</origin>
+        <growing_tips>
+            <temperature>+25 cel</temperature>
+            <lighting>true</lighting>
+            <watering>5000 per/week</watering>
+        </growing_tips>
+        <multiplying>seeds</multiplying>
+    </flower>
+
+    <flower id="flower8" leaves_color="purple" stem_color="purple">
+        <name>cedar-case</name>
+        <soil>sod-podzolic</soil>
+        <origin>room</origin>
+        <growing_tips>
+            <temperature>+27 cel</temperature>
+            <lighting>true</lighting>
+            <watering>3500 per/week</watering>
+        </growing_tips>
+        <multiplying>leavers</multiplying>
+    </flower>
+
+    <flower id="flower9" leaves_color="red" stem_color="red">
+        <name>begonia</name>
+        <soil>ground</soil>
+        <origin>room</origin>
+        <growing_tips>
+            <temperature>+28 cel</temperature>
+            <lighting>true</lighting>
+            <watering>4500 per/week</watering>
+        </growing_tips>
+        <multiplying>leavers</multiplying>
+    </flower>
+
+    <flower id="flower10" leaves_color="green" stem_color="green">
+        <name>aloe</name>
+        <soil>ground</soil>
+        <origin>Belarus</origin>
+        <growing_tips>
+            <temperature>+27 cel</temperature>
+            <lighting>true</lighting>
+            <watering>1000 per/week</watering>
+        </growing_tips>
+        <multiplying>leavers</multiplying>
+    </flower>
+
+    <flower id="flower11">
+        <name>chrysanthemum</name>
+        <soil>podzolic</soil>
+        <origin>garden</origin>
+        <growing_tips>
+            <temperature>+25 cel</temperature>
+            <lighting>true</lighting>
+            <watering>4000 per/week</watering>
+        </growing_tips>
+        <multiplying>seeds</multiplying>
+    </flower>
+
+    <flower id="flower12" leaves_color="green">
+        <name>aglaonema</name>
+        <soil>sod-podzolic</soil>
+        <origin>Russia</origin>
+        <growing_tips>
+            <temperature>+22 cel</temperature>
+            <lighting>false</lighting>
+            <watering>4000 per/week</watering>
+        </growing_tips>
+        <multiplying>cuttings</multiplying>
+    </flower>
+
+    <flower id="flower13" leaves_color="green">
+        <name>sansevieria</name>
+        <soil>podzolic</soil>
+        <origin>USA</origin>
+        <growing_tips>
+            <temperature>+31 cel</temperature>
+            <lighting>false</lighting>
+            <watering>3400 per/week</watering>
+        </growing_tips>
+        <multiplying>seeds</multiplying>
+    </flower>
+
+    <flower id="flower14" stem_color="green">
+        <name>cactus</name>
+        <soil>podzolic</soil>
+        <origin>China</origin>
+        <growing_tips>
+            <temperature>+38 cel</temperature>
+            <lighting>true</lighting>
+            <watering>100 per/week</watering>
+        </growing_tips>
+        <multiplying>seeds</multiplying>
+    </flower>
+
+    <flower id="flower15" leaves_color="green" stem_color="green">
+        <name>philodendron</name>
+        <soil>podzolic</soil>
+        <origin>home</origin>
+        <growing_tips>
+            <temperature>+22 cel</temperature>
+            <lighting>false</lighting>
+            <watering>3000 per/week</watering>
+        </growing_tips>
+        <multiplying>cuttings</multiplying>
+    </flower>
+
+    <flower id="flower16" stem_color="green">
+        <name>sage</name>
+        <soil>sod-podzolic</soil>
+        <origin>Belarus</origin>
+        <growing_tips>
+            <temperature>+24 cel</temperature>
+            <lighting>true</lighting>
+            <watering>2500 per/week</watering>
+        </growing_tips>
+        <multiplying>seeds</multiplying>
+    </flower>
+</flow:flowers>
+
