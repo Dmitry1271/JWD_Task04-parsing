@@ -31,20 +31,19 @@ public class FrontController extends HttpServlet {
         ServiceFactory instance = ServiceFactory.getInstance();
         FlowerService flowerService = instance.getFlowerService();
 
-
         String commandParam = req.getParameter("command");
 
-        if (CommandName.isContainsCommand(commandParam)) {
+        if (commandParam != null && CommandName.isContainsCommand(commandParam)) {
             try {
                 List<Flower> allFlowers = flowerService.parse(commandParam);
                 String pageParam = req.getParameter("page");
-                if (PageParamValidator.isValidPageParam(pageParam, allFlowers.size())) {
+                if (PageParamValidator.isValidPageParam(pageParam,ListOutputHelper.getNumberPages(allFlowers.size()))) {
                     int currentPage = Integer.parseInt(pageParam);
 
                     Paginator paginator = new Paginator(allFlowers.size(), currentPage);
 
                     List<Flower> outPutFlowers = allFlowers.subList(ListOutputHelper.indexFirstElementOnPage(currentPage),
-                            ListOutputHelper.indexLastElementOnPage(paginator.getContentSize(), currentPage));
+                            ListOutputHelper.getIndexLastElementOnPage(paginator.getContentSize(), currentPage));
 
                     req.setAttribute("currentPage", currentPage);
                     req.setAttribute("nextPage", paginator.getNextPage());
@@ -54,13 +53,13 @@ public class FrontController extends HttpServlet {
                     req.setAttribute("flowerList", outPutFlowers);
                     req.setAttribute("command", commandParam);
                     req.getRequestDispatcher("WEB-INF/flowersInfo.jsp").forward(req, resp);
-                }else {
+                } else {
                     req.getRequestDispatcher("WEB-INF/error.jsp").forward(req, resp);
                 }
             } catch (ServiceException e) {
                 Logger.error(e);
             }
-        }else {
+        } else {
             req.getRequestDispatcher("WEB-INF/error.jsp").forward(req, resp);
         }
     }

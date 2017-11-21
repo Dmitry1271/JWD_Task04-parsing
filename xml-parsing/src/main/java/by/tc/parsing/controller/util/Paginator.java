@@ -6,6 +6,7 @@ import static by.tc.parsing.controller.util.ListOutputHelper.NUMBER_ELEMENTS_AT_
  * Created by cplus on 21.11.2017.
  */
 public final class Paginator {
+    private static final int ADDITIONAL_PAGE = 1;
     private int firstPage;
     private int lastPage;
     private int previousPage;
@@ -28,7 +29,7 @@ public final class Paginator {
 
     private void setLastPage() {
         if (contentSize % NUMBER_ELEMENTS_AT_PAGE > 0) {
-            lastPage = contentSize / NUMBER_ELEMENTS_AT_PAGE + 1;
+            lastPage = contentSize / NUMBER_ELEMENTS_AT_PAGE + ADDITIONAL_PAGE;
         } else {
             lastPage = contentSize / NUMBER_ELEMENTS_AT_PAGE;
         }
