@@ -9,6 +9,7 @@
     <meta http-equiv="Content-type" content="text/html" charset="UTF-8">
 </head>
 <body>
+<a href="../index.jsp"><h2>back</h2></a>
 <table border="1" style="width: 70%; margin-left: 15%; margin-top: 100px;">
     <tr>
         <th>№</th>

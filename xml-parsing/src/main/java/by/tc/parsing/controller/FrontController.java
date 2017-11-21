@@ -40,7 +40,7 @@ public class FrontController extends HttpServlet {
                 String pageParam = req.getParameter("page");
                 if (PageParamValidator.isValidPageParam(pageParam, allFlowers.size())) {
                     int currentPage = Integer.parseInt(pageParam);
-                    
+
                     Paginator paginator = new Paginator(allFlowers.size(), currentPage);
 
                     List<Flower> outPutFlowers = allFlowers.subList(ListOutputHelper.indexFirstElementOnPage(currentPage),
@@ -54,11 +54,14 @@ public class FrontController extends HttpServlet {
                     req.setAttribute("flowerList", outPutFlowers);
                     req.setAttribute("command", commandParam);
                     req.getRequestDispatcher("WEB-INF/flowersInfo.jsp").forward(req, resp);
+                }else {
+                    req.getRequestDispatcher("WEB-INF/error.jsp").forward(req, resp);
                 }
-
             } catch (ServiceException e) {
                 Logger.error(e);
             }
+        }else {
+            req.getRequestDispatcher("WEB-INF/error.jsp").forward(req, resp);
         }
     }
 
