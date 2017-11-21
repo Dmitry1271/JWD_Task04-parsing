@@ -1,0 +1,12 @@
+21:52:07.953 [INFO ] - [by.tc.parsing.dao.parse.help.MenuStAXParser] - Start parse StAX
+21:52:07.993 [INFO ] - [by.tc.parsing.dao.parse.help.MenuStAXParser] - End parse StAX
+21:53:06.837 [INFO ] - [by.tc.parsing.dao.parse.help.MenuDOMParser] - Start parse DOM
+21:53:06.846 [INFO ] - [by.tc.parsing.dao.parse.help.MenuDOMParser] - End parse DOM
+21:53:25.851 [INFO ] - [by.tc.parsing.dao.parse.help.MenuDOMParser] - Start parse DOM
+21:53:25.859 [INFO ] - [by.tc.parsing.dao.parse.help.MenuDOMParser] - End parse DOM
+21:58:47.662 [INFO ] - [by.tc.parsing.dao.parse.help.MenuDOMParser] - Start parse DOM
+21:58:47.671 [INFO ] - [by.tc.parsing.dao.parse.help.MenuDOMParser] - End parse DOM
+21:58:47.700 [INFO ] - [by.tc.parsing.dao.parse.help.MenuSAXHandler] - start parse SAX
+21:58:47.712 [INFO ] - [by.tc.parsing.dao.parse.help.MenuSAXHandler] - end parse SAX
+21:58:47.756 [INFO ] - [by.tc.parsing.dao.parse.help.MenuStAXParser] - Start parse StAX
+21:58:47.771 [INFO ] - [by.tc.parsing.dao.parse.help.MenuStAXParser] - End parse StAX

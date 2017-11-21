@@ -1,0 +1,2 @@
+21:51:30.950 [INFO ] - [by.tc.parsing.dao.parse.help.MenuSAXHandler] - start parse SAX
+21:51:30.990 [INFO ] - [by.tc.parsing.dao.parse.help.MenuSAXHandler] - end parse SAX
