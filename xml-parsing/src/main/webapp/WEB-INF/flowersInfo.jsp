@@ -10,7 +10,7 @@
 </head>
 <body>
 <a href="../index.jsp"><h2>back</h2></a>
-<table border="1" style="width: 70%; margin-left: 15%; margin-top: 100px;">
+<table border="1" style="width: 64%; margin-left: 18%; margin-top: 100px;">
     <tr>
         <th>№</th>
         <th>name</th>
@@ -28,11 +28,11 @@
             <td>${flower.name}</td>
             <td>${flower.leavesColor}</td>
             <td>${flower.stemColor}</td>
-            <td>${flower.soil}</td>
+            <td style="text-transform:lowercase">${flower.soil}</td>
             <td>${flower.growingType.temperature}</td>
             <td>${flower.growingType.lighting}</td>
             <td>${flower.growingType.watering}</td>
-            <td>${flower.multiplying}</td>
+            <td style="text-transform: lowercase">${flower.multiplying}</td>
         </tr>
     </c:forEach>
 </table>

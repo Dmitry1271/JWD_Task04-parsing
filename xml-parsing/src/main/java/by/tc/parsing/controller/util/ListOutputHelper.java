@@ -4,8 +4,8 @@ package by.tc.parsing.controller.util;
  * Created by cplus on 21.11.2017.
  */
 public final class ListOutputHelper {
-    private static final int ADDITIONAL_PAGE = 1;
     public static final int NUMBER_ELEMENTS_AT_PAGE = 4;
+    private static final int ADDITIONAL_PAGE = 1;
 
     private ListOutputHelper() {
     }

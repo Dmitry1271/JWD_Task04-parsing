@@ -18,7 +18,6 @@ public class FlowerDaoImpl implements FlowerDAO {
     public List<Flower> parse(String command) throws DAOException {
         CommandDirector commandDirector = new CommandDirector();
         try {
-
             return commandDirector.takeCommand(command).execute();
         } catch (SAXException | IOException | XMLStreamException e) {
             throw new DAOException(e);

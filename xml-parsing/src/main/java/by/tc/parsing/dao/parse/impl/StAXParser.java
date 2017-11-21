@@ -15,7 +15,7 @@ import java.util.List;
  * Created by cplus on 19.11.2017.
  */
 public class StAXParser implements Command {
-    public static final String PATH = "/flowers/flowers.xml";
+    private static final String PATH = "/flowers/flowers.xml";
 
     @Override
     public List<Flower> execute() throws FileNotFoundException, XMLStreamException {
